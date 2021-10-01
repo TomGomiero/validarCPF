@@ -1,0 +1,138 @@
+/* margin e padding com valor nulo para padronizar*/
+* {
+    margin: 0;
+    padding: 0;
+}
+ /* elementos do ID header*/ 
+#header {
+    background-color: #1659bf;
+    padding: 30px 0 0 0;
+}
+ /*elementos do id h1white */ 
+#h1white {
+    color: white;
+    padding-bottom: 2px;
+    padding-left: 10px;
+}
+ /*elementos do id h2white */ 
+#h2white {
+    color: white;
+    padding-left: 10px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+ /*elementos do id h3blue */ 
+#h3blue{
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+ /*elementos do paragrafo info */ 
+#info {
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+ /*elementos da id footer */ 
+#footer{
+    margin-top: 270px;
+    background-color: #1659bf;
+    padding: 30px 0 0 0;
+}
+ /*elementos da id titulo*/ 
+#titulo {
+    font-family: sans-serif;
+    color: #1659bf;
+    margin-top: 35px;
+    margin-left: 5%;
+} 
+ /*elementos da id subtitulo */ 
+#subtitulo {
+    font-family: sans-serif;
+    color:#1659bf;
+    margin-left: 5%;
+}
+
+.linha {
+    margin-right: auto;
+    margin-bottom: 5px;   
+}
+ /*elementos da class img onde usei o comando float right para deixar a imagem a direita da pagina */ 
+img {
+    float: right;
+    margin-right: 25px;
+
+   }
+
+
+/* Elementos de tag <fieldset>*/
+
+fieldset {
+    border:1;
+    width: 200px;
+    margin-left: 5%;
+    margin-bottom: 5px;
+}
+/*
+/* estilo padrao da tag <body> */
+body{
+    background-color: #F0F8FF;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #1659bf;
+    margin-left: auto;
+    margin-top: 0%;
+    justify-content: center;
+   
+}
+
+/* Elementos de tags <body> e <button> */
+
+  button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #1659bf;
+    border-radius: 5px;
+  
+}
+/* Elementos de classe "campo" */
+.campo {
+    margin-bottom: 1em;
+    margin-left: 15%;
+    
+    
+}
+
+/* Elementos de classe "campo" de tag <label> */
+.campo label {
+    margin-bottom: 0.2em;
+    color: #1659bf;
+    display: block;
+}
+/* Elementos de classe "campo" ou "grupo" de tag <fieldset> */
+fieldset  .campo {
+    float:  left;
+    margin-right: 1em;
+    
+}
+/* Elemento de classe "botao" */
+.botao {
+    font-size: 1.2em;
+    background: #1659bf;
+    border:0;
+    margin-bottom: 2em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    margin: auto 0;
+    margin-left: 10%;
+    margin-bottom: 10px;
+   
+}
+/* Elemento de classe "botao" para o efeito "hover" */
+.botao:hover {
+    background: #bbc7ff;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}

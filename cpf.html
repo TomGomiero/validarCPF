@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="UTF-8"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link para chamar o arquivo CSS-->
+    <link rel="stylesheet" type="text/css" href="cpf.css" media="screen">
+    <title>Consultar CPF</title>
+</head>
+<body>
+    <!--Neste arquivo HTML criei algumas div para nao me perder no codigo, e criei algumas ID e Class para estilizar no CSS-->
+
+    <div id="header">
+        <h1 id="h1white">Receita federal </h1>
+        <h2 id="h2white">Ministerio da economia</h2>
+    </div>
+    <hr class="linha">
+    <div class= "img">
+    <img src="bannerheader_cpf.png" alt="cpfimg"> <!--source para mostrar a imagem da pasta do projeto-->
+    </div>
+     <!--Cabeçalho com titulo e subtitulo-->
+    <div>
+    <h3 id="titulo">Verificação de situação cadastral do CPF</h3>
+    <p id="subtitulo"><strong>Preencha o campo abaixo</strong></p>
+    <br>
+    </div>
+    
+    <!--teste para enviar dados para o arquivo php,usando metodo POST e action para chamar o arquivo php-->
+    <form class="form" method="POST" action="veritest.php">
+    <fieldset class="formulario">
+        <div class="campo">
+         <label for="cpf"><strong>CPF:</strong></label>
+         <!--tag input do tipo texto com o valor "cpf" em name que vai ser resgatado pelo comando $cpf = $_POST["cpf"];-->
+         <input type="text" name="cpf" id="cpf" required>
+        </div>
+    </fieldset>
+    <!-- Botão para enviar o cpf -->
+    <button class="botao" type="submit" value="">Consultar</button> 
+    </form>
+    <hr>
+  <h3 id=h3blue>Observação:</h3>
+  <p id="info">O comprovante gerado não fornece informações sobre a situação econômica, financeira ou fiscal do titular do CPF, limita-se tão somente a comprovar a situação cadastral no CPF.</p>
+    
+    <div id="footer">
+    </div>
+</body>
+</html>
